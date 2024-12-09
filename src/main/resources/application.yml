@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: springmq
+rocketmq:
+  name-server: 43.248.186.18:9876 # NameServer ??
+  producer:
+    group: my-producer-group # ?????
+  consumer:
+    group: my-consumer-group # ?????
+server:
+  port: 7888
